@@ -1,6 +1,8 @@
 package zuperprogrammer.reflection.data;
 
-public class Person {
+import java.io.Serializable;
+
+public final class Person implements Nameable, Serializable {
     private String firstName;
     private String lastName;
 
